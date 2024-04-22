@@ -19,7 +19,7 @@ This ChatBot is specifically tailored for the purpose of mapping Job Description
 ## Usage
 1. **Excel File Setup**:
     - Prepare an Excel file containing the JDs to be mapped to JRS. Each JD should be in a separate row.
-    - Paste the path to the excel file in the command prompt window after running the python file or Update the `file_path` variable in the `excel_to_chunks()` function with the path to your Excel file if you want to set a default path.
+    - Paste the path to the excel file in the command prompt window after running the python file or Update the `file_path` variable in the `excel_to_chunks()` function with the path to Excel file if it should be set as a default path.
 
 2. **Run the ChatBot**:
     - Navigate to the directory containing the ChatBot source code.
