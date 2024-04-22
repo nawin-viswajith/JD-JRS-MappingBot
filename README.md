@@ -23,9 +23,9 @@ This ChatBot is specifically tailored for the purpose of mapping Job Description
 
 2. **Run the ChatBot**:
     - Navigate to the directory containing the ChatBot source code.
-    - Run the `chatbot.py` file using Python:
+    - Run the `JD-JRS KNN.py` file using Python:
         ```
-        python chatbot.py
+        python JD-JRS KNN.py
         ```
 
 3. **Interact with the ChatBot**:
