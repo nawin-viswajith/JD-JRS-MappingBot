@@ -9,17 +9,17 @@ This ChatBot is specifically tailored for the purpose of mapping Job Description
 - **Graphical User Interface (GUI)**: The ChatBot interface is implemented using Tkinter, providing a user-friendly and intuitive experience for mapping JDs to JRS.
 
 ## Installation
-1. Ensure you have Python installed on your system (Python 3.x recommended).
-2. Install the required libraries by running:
+1. Ensure you have Python installed on your system (Python 3.x recommended). You can download and install Python from the official website: [Python.org](https://www.python.org/downloads/). Choose the appropriate installer for your operating system and follow the installation instructions provided on the website.
+3. Install the required libraries by running:
     ```
-    pip install pandas numpy sentence-transformers scikit-learn
+    pip install pandas numpy sentence-transformers scikit-learn chromadb tk
     ```
-3. Clone or download the ChatBot source code from the repository.
+4. Clone or download the ChatBot source code from the repository.
 
 ## Usage
 1. **Excel File Setup**:
     - Prepare an Excel file containing the JDs to be mapped to JRS. Each JD should be in a separate row.
-    - Update the `file_path` variable in the `excel_to_chunks()` function with the path to your Excel file.
+    - Paste the path to the excel file in the command prompt window after running the python file or Update the `file_path` variable in the `excel_to_chunks()` function with the path to your Excel file if you want to set a default path.
 
 2. **Run the ChatBot**:
     - Navigate to the directory containing the ChatBot source code.
