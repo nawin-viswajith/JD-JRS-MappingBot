@@ -180,8 +180,8 @@ def excel_to_chunks():
     chunks = []
 
     # Read the Excel file
-    # file_path = input("Enter the path to the Excel file: ").strip("\"")
-    file_path = r"C:\Users\nv271\OneDrive\Desktop\JRS - JD - All.xlsx"
+    file_path = input("Enter the path to the Excel file: ").strip("\"")
+    # file_path = path_to_file
     df = pd.read_excel(file_path, header=None)
 
     # Convert each non-empty row into a chunk
