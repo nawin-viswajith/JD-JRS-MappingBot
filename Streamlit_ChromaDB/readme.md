@@ -13,7 +13,7 @@
     ```bash
     pip install -r requirements.txt
     ```
-6. Run the application:
+6. Run the application by opening terminal or command prompt in the same path and type:
     ```bash
     streamlit run app.py
     ```
