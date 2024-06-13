@@ -7,12 +7,13 @@
 ## Setup
 1. Clone or download the project.
 2. Navigate to the project directory.
-3. Create and activate a virtual environment.
-4. Install dependencies:
+3. Download the ChromaDB.zip file and paste it in the same folder as the project.
+4. Extract the zip file in the same directory.
+5. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
-5. Run the application:
+6. Run the application:
     ```bash
     streamlit run app.py
     ```
