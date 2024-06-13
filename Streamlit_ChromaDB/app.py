@@ -6,7 +6,7 @@ if __name__ == "__main__":
     def main():
         # Initialize ChromaDB client
         script_dir = os.path.dirname(__file__)
-        chromadb_path = os.path.join(script_dir, 'ChromaDB', 'chroma_storage')
+        chromadb_path = os.path.join(script_dir, 'ChromaDB', 'ChromaDB', 'chroma_storage')
         client = chromadb.PersistentClient(path=chromadb_path)
 
         # Specify the collection name
