@@ -1,22 +1,22 @@
 # JD-JRS Mapping Bot
 
 ## Prerequisites
-- Python 3.x: Ensure Python is installed. You can download it from [Python.org](https://www.python.org/downloads/).
-- pip: Typically comes with Python. Verify installation by running pip --version in your terminal.
-- Microsoft Build Tools with C++: Required for compiling some dependencies. Download and install from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/). During installation, ensure to check the "Desktop development with C++" workload
+- **Python 3.x:** Ensure Python is installed. You can download it from [Python.org](https://www.python.org/downloads/).
+- **pip:** Typically comes with Python. Verify installation by running pip --version in your terminal.
+- **Microsoft Build Tools with C++:** Required for compiling some dependencies. Download and install from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/). During installation, ensure to check the **"Desktop development with C++"** workload
 
 ## Setup
 1. Clone or Download the Project
    - Clone the repository using git: 
    ```bash
-   git clone https://github.com/yourusername/jd-jrs-mapping-bot.git
+   git clone https://github.com/nawin-viswajith/JD-JRS-MappingBot.git
    ```
    - Or download the project as a ZIP file from the repository and extract it.
 
 2. Navigate to the project directory
    - Open your terminal or command prompt and navigate to the directory where you cloned or extracted the project
    ```bash
-   cd path/to/jd-jrs-mapping-bot
+   cd JD-JRS-MappingBot/Streamlit_ChromaDB
    ```
 3. Download and prepare ChromaDB
    - Download ChromaDB.zip: Ensure the file is available in the same directory as your project files. If not, download it from the specified location or repository.
