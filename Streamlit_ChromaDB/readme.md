@@ -1,5 +1,15 @@
 # JD-JRS Mapping Bot
 
+## Overview
+The JD-JRS Mapping Bot is an innovative application designed to streamline the process of mapping Job Descriptions (JD) to Job Role Specifications (JRS). By leveraging a combination of natural language processing and an efficient database search mechanism, the bot enables users to quickly find relevant job roles based on the provided job descriptions. This tool is particularly useful for HR professionals, recruiters, and organizational leaders looking to optimize job role matching and ensure that job descriptions align with standardized role specifications.
+
+### Key Features
+   - **Streamlit Interface:** A user-friendly web interface built with Streamlit for easy interaction.
+   - **ChromaDB Integration:** Uses ChromaDB to efficiently store and retrieve job description and role specification data.
+   - **Text Search:** Allows users to input job descriptions and receive relevant job role specifications.
+   - **Scalable:** Designed to handle large datasets with quick search capabilities.
+   - **Portable:** Easily deployable and can be shared with other users or teams.
+
 ## Prerequisites
 - **Python 3.x:** Ensure Python is installed. You can download it from [Python.org](https://www.python.org/downloads/).
 - **pip:** Typically comes with Python. Verify installation by running pip --version in your terminal.
