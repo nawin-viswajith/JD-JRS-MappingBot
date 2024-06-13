@@ -1,0 +1,2 @@
+pip install streamlit chromadb
+pip freeze > requirements.txt
