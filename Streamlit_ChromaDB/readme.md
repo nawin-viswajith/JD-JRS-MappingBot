@@ -51,8 +51,8 @@ This will open a new tab in your web browser with the JD-JRS Mapping Bot interfa
 ## Contributions
 Contributions to the JD-JRS Mapping Bot project, particularly enhancements or optimizations for JD to JRS mapping, are highly encouraged. If you have suggestions for improvements or new features, feel free to:
 
-   - Submit a pull request: Fork the repository, make your changes, and submit a pull request for review.
-   - Open an issue: Use the repository’s issue tracker to report bugs or request features.
+   - **Submit a pull request:** Fork the repository, make your changes, and submit a pull request for review.
+   - **Open an issue:** Use the repository’s issue tracker to report bugs or request features.
 
 ## License
 This ChatBot is provided under the [MIT License](LICENSE). You are free to modify and distribute the code for your own purposes.
