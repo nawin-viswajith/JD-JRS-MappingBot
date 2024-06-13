@@ -6,19 +6,19 @@
 - **Microsoft Build Tools with C++:** Required for compiling some dependencies. Download and install from [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/). During installation, ensure to check the **"Desktop development with C++"** workload
 
 ## Setup
-1. Clone or Download the Project
+**1. Clone or Download the Project**
    - Clone the repository using git: 
    ```bash
    git clone https://github.com/nawin-viswajith/JD-JRS-MappingBot.git
    ```
    - Or download the project as a ZIP file from the repository and extract it.
 
-2. Navigate to the project directory
+**2. Navigate to the project directory**
    - Open your terminal or command prompt and navigate to the directory where you cloned or extracted the project
    ```bash
    cd JD-JRS-MappingBot/Streamlit_ChromaDB
    ```
-3. Download and prepare ChromaDB
+**3. Download and prepare ChromaDB**
    - Download ChromaDB.zip: Ensure the file is available in the same directory as your project files. If not, download it from the specified location or repository.
    - Paste the ZIP file in the project directory if it's not already there.
    - Extract the ZIP file:
@@ -26,18 +26,21 @@
    unzip ChromaDB.zip
    ```
    This should create a ChromaDB folder with the necessary files inside.
-4. Extract the zip file in the same directory.
-5. Install dependencies:
-   - Install required Python packages listed in requirements.txt:
-    ```bash
-    pip install -r requirements.txt
-    ```
-6. Run the application:
-    - Start the Streamlit application:
-    ```bash
-    streamlit run app.py
-    ```
-    This will open a new tab in your web browser with the JD-JRS Mapping Bot interface.
+
+**4. Extract the zip file in the same directory.**
+
+**5. Install dependencies:**
+   - Install required Python packages listed in **requirements.txt**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+**6. Run the application:**
+   - Start the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+This will open a new tab in your web browser with the JD-JRS Mapping Bot interface.
 
 
 ## Usage
